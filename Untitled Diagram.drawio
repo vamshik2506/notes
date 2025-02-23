@@ -53,7 +53,7 @@
           <mxGeometry x="570" y="80" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="UE5WLC1yD8VHLzUW--mr-34" value="lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="380" width="240" height="240" as="geometry" />
+          <mxGeometry x="310" y="380" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="UE5WLC1yD8VHLzUW--mr-35" value="&lt;div&gt;&amp;nbsp;route 53&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;types of records&lt;/div&gt;&lt;div&gt;services in route 53&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="40" y="380" width="240" height="240" as="geometry" />
@@ -88,11 +88,11 @@
         <mxCell id="UE5WLC1yD8VHLzUW--mr-46" value="docker&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. basic commands&lt;/div&gt;&lt;div&gt;2. docker file&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="35" y="1169" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="UE5WLC1yD8VHLzUW--mr-47" value="kubernates&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. orchestration&lt;/div&gt;&lt;div&gt;2. mainfests&lt;/div&gt;&lt;div&gt;3.commands&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="304" y="1169" width="220" height="220" as="geometry" />
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-47" value="kubernates&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. orchestration&lt;/div&gt;&lt;div&gt;2. mainfests- Deployment ,service,loadbalancing&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.commands&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1169" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="UE5WLC1yD8VHLzUW--mr-48" value="cloud fornt" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="600" y="380" width="240" height="240" as="geometry" />
+          <mxGeometry x="560" y="380" width="240" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
