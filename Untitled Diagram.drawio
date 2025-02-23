@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="kLMIA7rPd0PpB_Dwz23F">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-2" value="AWS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-410" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-3" value="EC2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-4" value="S3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-315" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-5" value="RDS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-315" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-6" value="cloudwatch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-320" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-7" value="IAM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-8" value="VPC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-10" value="Lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-11" value="SNS/SQS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-12" value="Route 53" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-15" value="EC2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. key pair&lt;/div&gt;&lt;div&gt;2. security group&lt;/div&gt;&lt;div&gt;3.instance type&lt;/div&gt;&lt;div&gt;4. instance connection&lt;/div&gt;&lt;div&gt;5.Ami&lt;/div&gt;&lt;div&gt;6.load balancer&lt;/div&gt;&lt;div&gt;7.auto scalling&lt;/div&gt;&lt;div&gt;8. dynamic scaling&lt;/div&gt;&lt;div&gt;9. static scaling&lt;/div&gt;&lt;div&gt;10.static ip&lt;/div&gt;&lt;div&gt;11.efs&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-190" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-16" value="S3&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.static web site&lt;/div&gt;&lt;div&gt;2.classes&lt;/div&gt;&lt;div&gt;3.life cycle manager&lt;/div&gt;&lt;div&gt;4.replication&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-190" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-17" value="&lt;div&gt;RDS&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;1.engines&lt;/div&gt;&lt;div&gt;2.security groups&lt;/div&gt;&lt;div&gt;3.ec2 connection&lt;/div&gt;&lt;div&gt;4.back up&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-190" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-18" value="cloud watch&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;matrics&lt;/div&gt;&lt;div&gt;alarms&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-21" value="IAM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;role&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="80" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-22" value="VPC&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.nat gateway&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. VPC peering&lt;/div&gt;&lt;div&gt;3.transit gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-34" value="lambda" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-35" value="&lt;div&gt;&amp;nbsp;route 53&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;types of records&lt;/div&gt;&lt;div&gt;services in route 53&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-36" value="Devops" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="690" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-37" value="jenkins&lt;div&gt;ci/cd&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-38" value="docker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-39" value="maven" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-40" value="git" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-41" value="kubernetes" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-43" value="git&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;git commands&lt;/div&gt;&lt;div&gt;1.git pull &amp;amp; git fetch&lt;/div&gt;&lt;div&gt;2. git revert&amp;nbsp;&lt;/div&gt;&lt;div&gt;3.git rebaise&lt;/div&gt;&lt;div&gt;4.git merge&lt;/div&gt;&lt;div&gt;5.git cheery pick&lt;/div&gt;&lt;div&gt;6. webhook&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="35" y="920" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-44" value="&lt;div&gt;maven&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;commands&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22git%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bgit%20commands%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B1.git%20pull%20%26amp%3Bamp%3B%20git%20fetch%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B2.%20git%20revert%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B3.git%20rebaise%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B4.git%20merge%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B5.git%20cheery%20pick%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B6.%20webhook%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2235%22%20y%3D%22920%22%20width%3D%22220%22%20height%3D%22220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22git%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bgit%20commands%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B1.git%20pull%20%26amp%3Bamp%3B%20git%20fetch%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B2.%20git%20revert%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B3.git%20rebaise%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B4.git%20merge%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B5.git%20cheery%20pick%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B6.%20webhook%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2235%22%20y%3D%22920%22%20width%3D%22220%22%20height%3D%22220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3Ec&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22git%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3Bgit%20commands%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B1.git%20pull%20%26amp%3Bamp%3B%20git%20fetch%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B2.%20git%20revert%26amp%3Bnbsp%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B3.git%20rebaise%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B4.git%20merge%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B5.git%20cheery%20pick%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B6.%20webhook%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2235%22%20y%3D%22920%22%20width%3D%22220%22%20height%3D%22220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="305" y="920" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-45" value="jenkins&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.cicd pipeline&lt;/div&gt;&lt;div&gt;2.cicd work flow&lt;/div&gt;&lt;div&gt;3.security credentials&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="920" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-46" value="docker&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. basic commands&lt;/div&gt;&lt;div&gt;2. docker file&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="35" y="1169" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-47" value="kubernates&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. orchestration&lt;/div&gt;&lt;div&gt;2. mainfests&lt;/div&gt;&lt;div&gt;3.commands&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="304" y="1169" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UE5WLC1yD8VHLzUW--mr-48" value="cloud fornt" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="380" width="240" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
